@@ -7,9 +7,9 @@ public class PangramCheck {
         boolean[] alphabetCheck = new boolean[ 26 ];
         int index = 0;
         int flag = 0;
-        for ( int alphabetindex = 0 ; alphabetindex < input.length() ; alphabetindex++ ) {
-            if ( input.charAt(alphabetindex) >= 'a' && input.charAt(alphabetindex) <= 'z' ) {
-                index = input.charAt(alphabetindex) - 'a';
+        for ( int alphabetIndex = 0 ; alphabetIndex < input.length() ; alphabetIndex++ ) {
+            if ( input.charAt(alphabetIndex) >= 'a' && input.charAt(alphabetIndex) <= 'z' ) {
+                index = input.charAt(alphabetIndex) - 'a';
                 alphabetCheck[ index ] = true;
             }
         }
