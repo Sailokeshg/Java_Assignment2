@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentseven.questiontwo;
+package com.javaassignments.assignment7.questiontwo;
 
 public class Unicycle extends Cycle{
     @Override

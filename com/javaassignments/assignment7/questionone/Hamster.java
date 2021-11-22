@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentseven.questionone;
+package com.javaassignments.assignment7.questionone;
 
 public class Hamster extends Rodent {
     Hamster(){

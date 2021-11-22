@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentseven.questionfour;
+package com.javaassignments.assignment7.questionfour;
 
 public class Unicycle implements Cycle{
     public void code(){

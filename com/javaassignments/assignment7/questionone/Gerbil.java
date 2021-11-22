@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentseven.questionone;
+package com.javaassignments.assignment7.questionone;
 
 class Gerbil extends Rodent {
     Gerbil(){

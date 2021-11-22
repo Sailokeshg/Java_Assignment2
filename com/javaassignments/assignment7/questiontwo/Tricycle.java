@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentseven.questiontwo;
+package com.javaassignments.assignment7.questiontwo;
 
 public class Tricycle extends Cycle {
     public void balance(){

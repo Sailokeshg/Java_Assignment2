@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentseven.questiontwo;
+package com.javaassignments.assignment7.questiontwo;
 
 public class MainClass {
     public static void main(String[] args) {
