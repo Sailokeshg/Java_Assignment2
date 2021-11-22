@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentsix;
+package com.javaassignments.assignment6.question3;
 
 public class ObjectReferenceArray {
     public ObjectReferenceArray(String string){

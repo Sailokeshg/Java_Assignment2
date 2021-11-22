@@ -1,8 +1,6 @@
-package com.javaassignments.assignmentone;
+package com.javaassignments.assignment1;
 
-import java.io.File;
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class FileSearchUsingRegex {
     public static void main(String[] args) {

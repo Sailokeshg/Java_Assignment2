@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentfive.assignment.data;
+package com.javaassignments.assignment5.assignment.data;
 
 public class DefaultInitialization {
     int memberVariableOne;

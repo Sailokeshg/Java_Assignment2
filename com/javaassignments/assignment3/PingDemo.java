@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentthree;
+package com.javaassignments.assignment3;
 import java.io.IOException;
 import java.util.Scanner;
 

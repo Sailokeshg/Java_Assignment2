@@ -1,4 +1,4 @@
-package com.javaassignments.assignmentone;
+package com.javaassignments.assignment1;
 
 import java.io.File;
 import java.util.regex.Pattern;

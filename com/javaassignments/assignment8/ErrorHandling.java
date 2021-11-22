@@ -1,4 +1,4 @@
-package com.javaassignments.assignmenteight;
+package com.javaassignments.assignment8;
 
 public class ErrorHandling extends Exception {
     public void validateTransaction(String cvv, String otp, String cardNumber)

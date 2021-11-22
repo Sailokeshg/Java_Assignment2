@@ -1,4 +1,4 @@
-package com.javaassignments.assignmenteight;
+package com.javaassignments.assignment8;
 
 public class MainClass {
     public static void main(String[] args) {

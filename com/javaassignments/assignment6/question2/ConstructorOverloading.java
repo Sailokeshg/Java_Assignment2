@@ -1,9 +1,9 @@
-package com.javaassignments.assignmentsix;
+package com.javaassignments.assignment6.question2;
 
 public class ConstructorOverloading {
     int varOne;
     int varTwo;
-    public ConstructorOverloading(int varOne,int varTwo){
+    public ConstructorOverloading(int varOne, int varTwo){
         this(5);
         System.out.println("first Constructor is running");
     }
