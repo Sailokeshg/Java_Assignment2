@@ -3,6 +3,10 @@ package com.javaassignments.assignment6.question1;
 import java.util.HashSet;
 
 public class PrintVampires {
+    /***
+     * This method prints N  vampire numbers where N is passed as argument
+     * @param totNum  Number of vampire numbers to be printed
+     */
     public static void printVampireNumbers(int totNum){
         HashSet<Long> vampNums = new HashSet<>();
         for(long i=10; vampNums.size() <=totNum; i++){

@@ -7,6 +7,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class PingTheHost {
+    /***
+     * This code pings the given host for specific number of times
+     * and calculates median of times consumed to connect the host
+     * @param numberOfSteps Number of times connection is requested to the host
+     * @param host  Name of the host to which we try to ping
+     * @throws IOException
+     */
     public static void hostPing(int numberOfSteps,String host) throws IOException {
         Process process = Runtime.getRuntime().exec("ping "+host);
         BufferedReader input = new BufferedReader(new InputStreamReader(process.getInputStream()));

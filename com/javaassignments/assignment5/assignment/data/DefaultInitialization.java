@@ -1,5 +1,9 @@
 package com.javaassignments.assignment5.assignment.data;
 
+/***
+ * This code shows demo of unnecessity of declaring global variables.
+ * Their default values is Zero if not initialised
+ */
 public class DefaultInitialization {
     int memberVariableOne;
     char memberVariableTwo;       //Initialization of Instance Variable is not Mandatory. Its default value is 0

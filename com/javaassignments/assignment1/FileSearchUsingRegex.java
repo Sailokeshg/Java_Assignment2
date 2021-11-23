@@ -2,6 +2,9 @@ package com.javaassignments.assignment1;
 
 import java.util.Scanner;
 
+/***
+ * This code helps us search the file name using its extension
+ */
 public class FileSearchUsingRegex {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

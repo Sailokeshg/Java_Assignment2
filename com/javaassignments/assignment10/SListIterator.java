@@ -54,10 +54,13 @@ class SListIterator<Type> {
             head = new Node(ele);
             current = head;
         } else {
+           Node lastNode=head;
+            while (lastNode.next!=null){
+                lastNode=lastNode.next;
+            }
             Node temp = new Node(ele);
-            temp.next = current.next;
-            current.next = temp;
-
+            lastNode.next=temp;
+            lastNode=temp;
         }
     }
 }

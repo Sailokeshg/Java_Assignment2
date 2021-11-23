@@ -5,13 +5,18 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class RangeCalculator {
+    /***
+     * Calculates range of dates on which only the user can fill the form.
+     * @param signUpDate  Date on which kyc form is filled For the first time
+     * @param currentDate Today's date
+     */
 
     public static void calculateRange(Calendar signUpDate, Calendar currentDate){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
         int currentYear = currentDate.get(Calendar.YEAR);
         //setting the singUpDate to the anniversary of the current year
         signUpDate.set(Calendar.YEAR,currentYear);
-        signUpDate.add(Calendar.DATE,30);         ////added +30 days to anniversary to get maximum range
+        signUpDate.add(Calendar.DATE,30);         //added +30 days to anniversary to get maximum range
         Date maximumDate = signUpDate.getTime();
         signUpDate.add(Calendar.DATE,-60);
         Date minimumDate = signUpDate.getTime();     //added -60 days to anniversary to get minimum range

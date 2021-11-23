@@ -1,6 +1,10 @@
 package com.javaassignments.assignment6.question3;
 
 public class ObjectReferenceArray {
+    /***
+     * Constructor of this class to check reference object array calls.
+     * @param string String passed as input for verification
+     */
     public ObjectReferenceArray(String string){
         System.out.println(string);
     }
