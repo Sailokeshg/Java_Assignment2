@@ -34,5 +34,6 @@ public class CharOccurrence {
         catch (FileNotFoundException exception){
             System.out.println(exception.getMessage());
         }
+
     }
 }
