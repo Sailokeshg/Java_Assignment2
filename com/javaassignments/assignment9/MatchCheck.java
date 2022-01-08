@@ -7,8 +7,8 @@ public class MatchCheck {
      * @param s1 String used for match verification
      * @return True or false after validation
      */
-    public boolean isMatching(String s1) {
+    public boolean isMatching(String stringTobeChecked) {
         String regexPattern = "[A-Z].*[.]";
-        return Pattern.matches(regexPattern, s1);
+        return Pattern.matches(regexPattern, stringTobeChecked);
     }
 }

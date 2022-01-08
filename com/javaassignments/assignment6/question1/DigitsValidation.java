@@ -8,7 +8,7 @@ public class DigitsValidation {
      * @param original  Nmumber which is factorised
      * @param factorOne First factor of original number
      * @param factorTwo Second factor of original number
-     * @return  true if both factors have same number of digits which are repeated for same number of times,else false
+     * @return true if both factors have same number of digits which are repeated for same number of times,else false
      */
     public static boolean checkIfDigitsAreSame(long original, long factorOne, long factorTwo) {
         byte[] origBytes = Long.toString(original).getBytes();
@@ -18,3 +18,5 @@ public class DigitsValidation {
         return Arrays.equals(origBytes, factBytes);
     }
 }
+
+

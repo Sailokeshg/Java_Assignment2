@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class FileSearcher {
     /***
-     * This method helps us to serach for the file in the passed path
+     * This method helps us to search for the file in  passed path
      * @param path  Location where search needs to be done
      * @param regexPattern  Pattern to which file name is checked for matching
      */
