@@ -10,4 +10,5 @@ public class NewRemote extends Remote{
     public void off() {
         System.out.println("Off with New Remote");
     }
+
 }
